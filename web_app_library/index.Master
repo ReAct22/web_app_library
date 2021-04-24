@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="web_app_library.index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--Bootstrap CSS--%>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--Datatables CSS--%>
+    <link href="assets/datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--Bootstrap CSS--%>
+    <link href="assets/fontawsome/css/all.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           
+        </div>
+    </form>
+
+
+    <%--Jquery--%>
+    <script src="assets/jquery-3.6.0.min.js"></script>
+    <%--Bootsrap Js--%>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <%--Datatables Js--%>
+    <script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+    <%--Fontawsome Js--%>
+    <script src="assets/fontawsome/js/all.js"></script>
+</body>
+</html>
